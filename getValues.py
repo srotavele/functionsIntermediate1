@@ -7,17 +7,18 @@ students = [
 ]
 
 
-def iterateDictionary2(first_name, students):
+def iterateDictionary2(first_name):
     for s in students:
         print(s[first_name])
+        
 
 
-iterateDictionary2('first_name', students)
+iterateDictionary2('first_name')
+print("==" *5)
 
-
-def iterateDictionary2(last_name, students):
+def iterateDictionary2(last_name):
     for s in students:
         print(s[last_name])
 
 
-iterateDictionary2('last_name', students)
+iterateDictionary2('last_name')

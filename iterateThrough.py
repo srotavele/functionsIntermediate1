@@ -12,8 +12,8 @@ students = [
 #         print(f"%s - %s, %s - %s" % (list(student)
 #               [0], student['first_name'], list(student)[1], student['last_name']))
 def iterateDictionary(students):
-    for s in students:
-        print(f"first_name - {s['first_name']}, last_name - {s['last_name']}")
-
+    for i in students:
+        print(f"first_name - {i['first_name']}, last_name - {i['last_name']}")
+       
 
 iterateDictionary(students)
